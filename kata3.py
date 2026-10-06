@@ -2,4 +2,7 @@
 # Expected first row: A1-S1 A1-S2 A1-S3 A1-S4
 
 for aisle in range(1, 4):
-    print(f"Aisle {aisle}")
+    row = []
+    for shelf in range(1, 5):
+        row.append(f"A{aisle}-S{shelf}")
+    print("  ".join(row))
