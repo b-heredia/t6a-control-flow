@@ -7,3 +7,6 @@
 # Any other day → Normal operations
 
 # Expected: Day 3: Cycle count, Day 5: Scanner audit, Day 15: FULL AUDIT, Day 30: FULL AUDIT
+
+for day in range(1, 31):
+    print(f"Day {day}: Normal operations")
